@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b526f6b9-ffa8-4950-858d-1d4a6826e313" name="Changes" comment="add missing files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workspace/projects/components/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b526f6b9-ffa8-4950-858d-1d4a6826e313" name="Changes" comment="add readme/contribution md files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751926143466</updated>
       <workItem from="1751926144974" duration="406000" />
-      <workItem from="1751926576167" duration="3547000" />
+      <workItem from="1751926576167" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace and projects">
       <option name="closed" value="true" />
@@ -107,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751929323426</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add readme/contribution md files">
+      <option name="closed" value="true" />
+      <created>1751930167474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751930167474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +122,7 @@
     <MESSAGE value="rename project name" />
     <MESSAGE value="rename project" />
     <MESSAGE value="add missing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add missing files" />
+    <MESSAGE value="add readme/contribution md files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme/contribution md files" />
   </component>
 </project>
