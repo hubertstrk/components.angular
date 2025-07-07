@@ -1,16 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-x3',
+  selector: 'ui-button',
   standalone: true,
   imports: [],
   template: `
     <p>
-      x3 works!
+      button works!
     </p>
   `,
   styles: ``
 })
-export class X3Component {
+export class ButtonComponent {
 
 }

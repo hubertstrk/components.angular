@@ -23,8 +23,8 @@
       "dom"
     ],
     "paths": {
-      "x3": [
-        "./dist/x3"
+      "components": [
+        "./dist"
       ]
     }
   },
