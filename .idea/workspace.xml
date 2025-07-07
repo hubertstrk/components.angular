@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b526f6b9-ffa8-4950-858d-1d4a6826e313" name="Changes" comment="rename project name">
+    <list default="true" id="b526f6b9-ffa8-4950-858d-1d4a6826e313" name="Changes" comment="add missing files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/.vscode/extensions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/.vscode/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/ng-package.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/ng-package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/src/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/src/lib/x3.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/src/lib/x3.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/src/lib/ui-button.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/src/lib/x3.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/src/lib/x3.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/src/public-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/tsconfig.lib.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/tsconfig.lib.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/tsconfig.lib.prod.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/tsconfig.lib.prod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/projects/x3/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/tsconfig.spec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/x3-workspace/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workspace/projects/components/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/workspace/projects/components/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +29,9 @@
     &quot;accountId&quot;: &quot;68857cea-2896-4014-9964-c88a0435111d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
@@ -79,6 +61,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Sources\components.angular" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751926143466</updated>
       <workItem from="1751926144974" duration="406000" />
-      <workItem from="1751926576167" duration="2673000" />
+      <workItem from="1751926576167" duration="3547000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace and projects">
       <option name="closed" value="true" />
@@ -104,7 +91,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751926533276</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rename project">
+      <option name="closed" value="true" />
+      <created>1751929286525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751929286525</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add missing files">
+      <option name="closed" value="true" />
+      <created>1751929323426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751929323426</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init workspace and projects" />
     <MESSAGE value="rename project name" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename project name" />
+    <MESSAGE value="rename project" />
+    <MESSAGE value="add missing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add missing files" />
   </component>
 </project>

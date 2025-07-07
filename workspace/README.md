@@ -1,133 +1,69 @@
-# Components Library
+# Angular Workspace
 
-## Overview
-
-This is a reusable Angular 17 component library styled with Tailwind CSS. It provides a set of UI components designed for easy integration into Angular applications.
+This workspace contains the Angular projects and libraries including the `components` UI library built with Angular 17 and Tailwind CSS.
 
 ---
 
-## For Users: How to Use This Library
+## Projects
 
-### Installation
-
-Install the library from npm:
-
-```bash
-npm install your-library-name
-```
-
-### Peer Dependencies
-
-Make sure your project is using Angular 17 and has Tailwind CSS configured.
-
-### Importing the Library
-
-Import the module(s) in your Angular app module:
-
-```typescript
-import { ComponentsModule } from 'your-library-name';
-
-@NgModule({
-  imports: [
-    ComponentsModule,
-    // other imports
-  ],
-})
-export class AppModule {}
-```
-
-### Using Components
-
-Use the components in your templates as follows:
-
-```html
-<your-component-selector></your-component-selector>
-```
-
-Refer to the documentation for available components and usage examples.
+- `components` — A reusable Angular 17 component library styled with Tailwind CSS, located at `projects/components`.
 
 ---
 
-## For Developers: How to Develop and Build the Library
+## Usage
 
-### Development Server
+### Installing the Component Library
 
-Run the development server for testing and development:
-
-```bash
-ng serve
-```
-
-Navigate to `http://localhost:4200/`. The app will reload on source changes.
-
-### Code Scaffolding
-
-Generate new components or other Angular artifacts:
+If published to npm, install it in your Angular applications like so:
 
 ```bash
-ng generate component component-name
-ng generate directive|pipe|service|class|guard|interface|enum|module
+  npm install your-library-name
 ```
 
-### Build
+# Development
 
-Build the component library:
+## Serve for Development
+
+To run the development server (typically for the demo app or playground):
 
 ```bash
-ng build components
+  ng serve
 ```
 
-The build artifacts will be output to the `dist/components/` folder.
+Navigate to http://localhost:4200/ in your browser.
 
-### Running Unit Tests
-
-Execute unit tests with Karma:
+# Build the Library
+To build the components library and output to dist/components:
 
 ```bash
-ng test
+  ng build components
 ```
 
-### Running End-to-End Tests
+# Run Tests
 
-Run e2e tests (requires setup):
+## Run unit tests with Karma:
+    
+```bash
+  ng test
+```
+
+## Run end-to-end tests (if configured):
 
 ```bash
-ng e2e
+  ng e2e
 ```
 
-### Publishing the Library
 
-After building, the `dist/components` folder contains the package ready to publish.
+# Contributing & Release Process
 
-To publish:
+For guidelines on branching, versioning, and releasing the library, see the CONTRIBUTING.md file at the root of the repository.
+
+# Further Help
+
+Use the Angular CLI help for more commands and options:
 
 ```bash
-cd dist/components
-npm publish
+  ng help
 ```
 
-Remember to update the version in `package.json` before publishing.
-
----
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
-
----
-
-## License
-
-Specify your license here, e.g., MIT License.
-
----
-
-## Further Help
-
-For Angular CLI help, use:
-
-```bash
-ng help
-```
-
-Or visit the [Angular CLI Documentation](https://angular.io/cli).
+Or visit the Angular CLI Documentation.

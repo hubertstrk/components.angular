@@ -1,24 +1,133 @@
-# components
+# Components Library
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+## Overview
 
-## Code scaffolding
+This is a reusable Angular 17 component library styled with Tailwind CSS. It provides a set of UI components designed for easy integration into Angular applications.
 
-Run `ng generate component component-name --project components` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project components`.
-> Note: Don't forget to add `--project components` or else it will be added to the default project in your `angular.json` file. 
+---
 
-## Build
+## For Users: How to Use This Library
 
-Run `ng build components` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Publishing
+Install the library from npm:
 
-After building your library with `ng build components`, go to the dist folder `cd dist/components` and run `npm publish`.
+```bash
+npm install your-library-name
+```
 
-## Running unit tests
+### Peer Dependencies
 
-Run `ng test components` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Make sure your project is using Angular 17 and has Tailwind CSS configured.
 
-## Further help
+### Importing the Library
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Import the module(s) in your Angular app module:
+
+```typescript
+import { ComponentsModule } from 'your-library-name';
+
+@NgModule({
+  imports: [
+    ComponentsModule,
+    // other imports
+  ],
+})
+export class AppModule {}
+```
+
+### Using Components
+
+Use the components in your templates as follows:
+
+```html
+<your-component-selector></your-component-selector>
+```
+
+Refer to the documentation for available components and usage examples.
+
+---
+
+## For Developers: How to Develop and Build the Library
+
+### Development Server
+
+Run the development server for testing and development:
+
+```bash
+ng serve
+```
+
+Navigate to `http://localhost:4200/`. The app will reload on source changes.
+
+### Code Scaffolding
+
+Generate new components or other Angular artifacts:
+
+```bash
+ng generate component component-name
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
+
+### Build
+
+Build the component library:
+
+```bash
+ng build components
+```
+
+The build artifacts will be output to the `dist/components/` folder.
+
+### Running Unit Tests
+
+Execute unit tests with Karma:
+
+```bash
+ng test
+```
+
+### Running End-to-End Tests
+
+Run e2e tests (requires setup):
+
+```bash
+ng e2e
+```
+
+### Publishing the Library
+
+After building, the `dist/components` folder contains the package ready to publish.
+
+To publish:
+
+```bash
+cd dist/components
+npm publish
+```
+
+Remember to update the version in `package.json` before publishing.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+---
+
+## License
+
+Specify your license here, e.g., MIT License.
+
+---
+
+## Further Help
+
+For Angular CLI help, use:
+
+```bash
+ng help
+```
+
+Or visit the [Angular CLI Documentation](https://angular.io/cli).
